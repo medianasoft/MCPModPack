@@ -3,7 +3,7 @@
 
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/medianainc/MCPModPack/workflows/R-CMD-check/badge.svg?branch=master)](https://github.com/medianainc/MCPModPack/actions)
+[![R-CMD-check](https://github.com/medianasoft/MCPModPack/workflows/R-CMD-check/badge.svg?branch=master)](https://github.com/medianasoft/MCPModPack/actions)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/MCPModPack)](https://cran.r-project.org/package=MCPModPack)
 [![CRAN\_Logs\_Badge](http://cranlogs.r-pkg.org/badges/MCPModPack)](https://cran.r-project.org/package=MCPModPack)
 [![CRAN\_Logs\_Badge\_Total](http://cranlogs.r-pkg.org/badges/grand-total/MCPModPack)](https://cran.r-project.org/package=MCPModPack)

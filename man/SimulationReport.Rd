@@ -19,7 +19,7 @@ SimulationReport(results, report_title, report_filename)
   }
 }
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 \seealso{
   \code{\link{MCPModSimulation}}, \code{\link{AnalysisReport}}

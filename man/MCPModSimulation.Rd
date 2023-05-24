@@ -68,7 +68,7 @@ The function returns an object of class \samp{MCPModSimulationResults}. This obj
 }
 
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 \seealso{
   \code{\link{MCPModAnalysis}}

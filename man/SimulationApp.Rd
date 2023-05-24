@@ -10,7 +10,7 @@ This function creates a Shiny-based graphical user interface to perform a simula
 SimulationApp()
 }
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 \seealso{
   \code{\link{MCPModSimulation}}, \code{\link{SimulationReport}}

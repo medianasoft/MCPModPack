@@ -35,7 +35,7 @@ The package comes with three example data sets:
 }
 }
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 \references{
 Bornkamp, B., Bezlyak, V., Bretz, F. (2015). Implementing the MCP-Mod procedure for dose-response testing and estimation. \emph{Modern Approaches to Clinical Trials Using SAS}.  Menon, S., Zink, R. (editors). SAS Press: Cary, NC.

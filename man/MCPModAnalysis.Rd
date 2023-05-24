@@ -54,7 +54,7 @@ The function returns an object of class \samp{MCPModAnalysisResults}. This objec
 }
 
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 
 \seealso{

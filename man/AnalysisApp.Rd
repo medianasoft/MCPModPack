@@ -10,7 +10,7 @@ This function creates a Shiny-based graphical user interface to perform MCPMod-b
 AnalysisApp()
 }
 \author{
-Alex Dmitrienko <admitrienko@medianainc.com>
+Alex Dmitrienko <admitrienko@mediana.us>
 }
 \seealso{
   \code{\link{MCPModAnalysis}}, \code{\link{AnalysisReport}}
