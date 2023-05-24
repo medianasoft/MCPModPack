@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // MCPModFitDRModels
 List MCPModFitDRModels(const int& endpoint_index_arg, const IntegerVector& selected_models_arg, const NumericVector& x_arg, const NumericVector& y_arg, const double& delta_arg, const double& direction_index_arg, const int& maxit_arg, const NumericVector& theta_vector_arg);
 RcppExport SEXP _MCPModPack_MCPModFitDRModels(SEXP endpoint_index_argSEXP, SEXP selected_models_argSEXP, SEXP x_argSEXP, SEXP y_argSEXP, SEXP delta_argSEXP, SEXP direction_index_argSEXP, SEXP maxit_argSEXP, SEXP theta_vector_argSEXP) {

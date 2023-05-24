@@ -2192,7 +2192,7 @@ GenerateAnalysisReport = function(results, report_title) {
 
     # Error checks
 
-    if (class(results) != "MCPModAnalysisResults") stop("AnalysisReport: The object was not created by the MCPModAnalysis function.", call. = FALSE)
+    if (!inherits(results, "MCPModAnalysisResults")) stop("AnalysisReport: The object was not created by the MCPModAnalysis function.", call. = FALSE)
 
     if (!requireNamespace("officer", quietly = TRUE)) {
      stop("AnalysisReport: The officer package is required to generate this report. Please install it.", call. = FALSE)
@@ -2731,7 +2731,7 @@ GenerateSimulationReport = function(results, report_title) {
 
     # Error checks
 
-    if (class(results) != "MCPModSimulationResults") stop("SimulationReport: The object was not created by the MCPModSimulation function.", call. = FALSE)
+    if (!inherits(results, "MCPModSimulationResults")) stop("SimulationReport: The object was not created by the MCPModSimulation function.", call. = FALSE)
 
     if (!requireNamespace("officer", quietly = TRUE)) {
      stop("SimulationReport: The officer package is required to generate this report. Please install it.", call. = FALSE)
